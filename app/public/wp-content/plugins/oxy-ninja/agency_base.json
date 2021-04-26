@@ -1,0 +1,796 @@
+{
+  "agency_base_standard_classes": {
+    "standard_class_group": [
+      {
+        "group_name": "Breakpoints (Reference Only)",
+        "classes": [
+          {
+            "class": "s",
+            "description": "Mobile (up to 480px)"
+          },
+          {
+            "class": "m",
+            "description": "Mobile (up to 768px)"
+          },
+          {
+            "class": "l",
+            "description": "Tablet (up to 992px)"
+          },
+          {
+            "class": "xl",
+            "description": "Small Desktop (up to 1400px)"
+          }
+        ]
+      },
+      {
+        "group_name": "Utility Classes",
+        "classes": [
+          {
+            "class": "c-transition"
+          },
+          {
+            "class": "c-full-width"
+          },
+          {
+            "class": "c-inline"
+          },
+          {
+            "class": "c-stretch"
+          },
+          {
+            "class": "c-relative"
+          }
+        ]
+      },
+      {
+        "group_name": "Position",
+        "classes": [
+          {
+            "class": "c-left"
+          },
+          {
+            "class": "c-center"
+          },
+          {
+            "class": "c-right"
+          },
+          {
+            "class": "c-middle-center"
+          },
+          {
+            "class": "c-middle-left"
+          },
+          {
+            "class": "c-middle-right"
+          },
+          {
+            "class": "c-top-center"
+          },
+          {
+            "class": "c-top-left"
+          },
+          {
+            "class": "c-top-right"
+          },
+          {
+            "class": "c-bottom-center"
+          },
+          {
+            "class": "c-bottom-left"
+          },
+          {
+            "class": "c-bottom-right"
+          }
+        ]
+      },
+      {
+        "group_name": "Columns - Gaps & Grow",
+        "classes": [
+          {
+            "class": "c-columns-gap-xs",
+            "description": "Extra small columns gap"
+          },
+          {
+            "class": "c-columns-gap-s",
+            "description": "Small columns gap"
+          },
+          {
+            "class": "c-columns-gap-m",
+            "description": "Medium columns gap"
+          },
+          {
+            "class": "c-columns-gap-l",
+            "description": "Large columns gap"
+          },
+          {
+            "class": "c-columns-gap-xl",
+            "description": "Extra large columns gap"
+          },
+          {
+            "class": "c-columns-gap-xxl",
+            "description": "Extra-extra large columns gap"
+          },
+          {
+            "class": "c-column-grow",
+            "description": "Grow column to second column"
+          },
+          {
+            "class": "c-row-grow",
+            "description": "Grow column to second row"
+          }
+        ]
+      },
+      {
+        "group_name": "Columns - Desktop",
+        "classes": [
+          {
+            "class": "c-columns-6"
+          },
+          {
+            "class": "c-columns-5"
+          },
+          {
+            "class": "c-columns-4"
+          },
+          {
+            "class": "c-columns-3"
+          },
+          {
+            "class": "c-columns-2"
+          },
+          {
+            "class": "c-columns-3-2",
+            "description": "3 parts to 2 parts"
+          },
+          {
+            "class": "c-columns-2-3",
+            "description": "2 parts to 3 parts"
+          },
+          {
+            "class": "c-columns-1-2",
+            "description": "1 part to 2 parts"
+          },
+          {
+            "class": "c-columns-2-1",
+            "description": "2 parts to 1 part"
+          },
+          {
+            "class": "c-columns-3-1",
+            "description": "3 parts to 1 part"
+          },
+          {
+            "class": "c-columns-1-3",
+            "description": "1 part to 3 parts"
+          },
+          {
+            "class": "c-columns-2-auto",
+            "description": "2 columns that are measured automatically. Useful for row layout with icon and text."
+          }
+        ]
+      },
+      {
+        "group_name": "Columns - Laptop",
+        "classes": [
+          {
+            "class": "c-columns-xl-5"
+          },
+          {
+            "class": "c-columns-xl-4"
+          },
+          {
+            "class": "c-columns-xl-3"
+          },
+          {
+            "class": "c-columns-xl-2"
+          },
+          {
+            "class": "c-columns-xl-1"
+          }
+        ]
+      },
+      {
+        "group_name": "Columns - Tablet",
+        "classes": [
+          {
+            "class": "c-columns-l-4"
+          },
+          {
+            "class": "c-columns-l-3"
+          },
+          {
+            "class": "c-columns-l-2"
+          },
+          {
+            "class": "c-columns-l-1"
+          }
+        ]
+      },
+      {
+        "group_name": "Columns - Mobile Landscape",
+        "classes": [
+          {
+            "class": "c-columns-m-3"
+          },
+          {
+            "class": "c-columns-m-2"
+          },
+          {
+            "class": "c-columns-m-1"
+          }
+        ]
+      },
+      {
+        "group_name": "Columns - Mobile Portrait",
+        "classes": [
+          {
+            "class": "c-columns-s-2"
+          },
+          {
+            "class": "c-columns-s-1"
+          }
+        ]
+      },
+      {
+        "group_name": "CSS Grid, Cell size, responsive -s/m/l/xl before -#",
+        "classes": [
+          {
+            "class": "c-col-span-1"
+          },
+          {
+            "class": "c-col-span-2"
+          },
+          {
+            "class": "c-col-span-3"
+          },
+          {
+            "class": "c-col-span-4"
+          },
+          {
+            "class": "c-col-span-5"
+          },
+          {
+            "class": "c-col-span-6"
+          },
+          {
+            "class": "c-row-span-1"
+          },
+          {
+            "class": "c-row-span-2"
+          },
+          {
+            "class": "c-row-span-3"
+          },
+          {
+            "class": "c-row-span-4"
+          },
+          {
+            "class": "c-row-span-5"
+          },
+          {
+            "class": "c-row-span-6"
+          },
+          {
+            "class": "c-row-span-7"
+          }
+        ]
+      },
+      {
+        "group_name": "CSS Grid, Cell positioning, resp. -s/m/l/xl before -#",
+        "classes": [
+          {
+            "class": "c-col-start-1"
+          },
+          {
+            "class": "c-col-start-2"
+          },
+          {
+            "class": "c-col-start-3"
+          },
+          {
+            "class": "c-col-start-4"
+          },
+          {
+            "class": "c-col-start-5"
+          },
+          {
+            "class": "c-col-start-6"
+          },
+          {
+            "class": "c-row-start-1"
+          },
+          {
+            "class": "c-row-start-2"
+          },
+          {
+            "class": "c-row-start-3"
+          },
+          {
+            "class": "c-row-start-4"
+          },
+          {
+            "class": "c-row-start-5"
+          },
+          {
+            "class": "c-row-start-6"
+          }
+        ]
+      },
+      {
+        "group_name": "Margin",
+        "classes": [
+          {
+            "class": "c-margin-bottom-xs"
+          },
+          {
+            "class": "c-margin-bottom-s"
+          },
+          {
+            "class": "c-margin-bottom-m"
+          },
+          {
+            "class": "c-margin-bottom-l"
+          },
+          {
+            "class": "c-margin-bottom-xl"
+          },
+          {
+            "class": "c-margin-bottom-xxl"
+          },
+          {
+            "class": "c-margin-right-xs"
+          },
+          {
+            "class": "c-margin-right-s"
+          },
+          {
+            "class": "c-margin-right-m"
+          },
+          {
+            "class": "c-margin-right-l"
+          },
+          {
+            "class": "c-margin-right-xl"
+          },
+          {
+            "class": "c-margin-right-xxl"
+          }
+        ]
+      },
+      {
+        "group_name": "Padding",
+        "classes": [
+          {
+            "class": "c-padding-xs"
+          },
+          {
+            "class": "c-padding-s"
+          },
+          {
+            "class": "c-padding-m"
+          },
+          {
+            "class": "c-padding-l"
+          },
+          {
+            "class": "c-padding-xl"
+          },
+          {
+            "class": "c-padding-xxl"
+          }
+        ]
+      },
+      {
+        "group_name": "Padding Left",
+        "classes": [
+          {
+            "class": "c-padding-left-xs"
+          },
+          {
+            "class": "c-padding-left-s"
+          },
+          {
+            "class": "c-padding-left-m"
+          },
+          {
+            "class": "c-padding-left-l"
+          },
+          {
+            "class": "c-padding-left-xl"
+          },
+          {
+            "class": "c-padding-left-xxl"
+          }
+        ]
+      },
+      {
+        "group_name": "Padding Right",
+        "classes": [
+          {
+            "class": "c-padding-right-xs"
+          },
+          {
+            "class": "c-padding-right-s"
+          },
+          {
+            "class": "c-padding-right-m"
+          },
+          {
+            "class": "c-padding-right-l"
+          },
+          {
+            "class": "c-padding-right-xl"
+          },
+          {
+            "class": "c-padding-right-xxl"
+          }
+        ]
+      },
+      {
+        "group_name": "Padding Top",
+        "classes": [
+          {
+            "class": "c-padding-top-xs"
+          },
+          {
+            "class": "c-padding-top-s"
+          },
+          {
+            "class": "c-padding-top-m"
+          },
+          {
+            "class": "c-padding-top-l"
+          },
+          {
+            "class": "c-padding-top-xl"
+          },
+          {
+            "class": "c-padding-top-xxl"
+          }
+        ]
+      },
+      {
+        "group_name": "Padding Bottom",
+        "classes": [
+          {
+            "class": "c-padding-bottom-xs"
+          },
+          {
+            "class": "c-padding-bottom-s"
+          },
+          {
+            "class": "c-padding-bottom-m"
+          },
+          {
+            "class": "c-padding-bottom-l"
+          },
+          {
+            "class": "c-padding-bottom-xl"
+          },
+          {
+            "class": "c-padding-bottom-xxl"
+          }
+        ]
+      },
+      {
+        "group_name": "Background Colors & Blurs",
+        "classes": [
+          {
+            "class": "c-bg-light"
+          },
+          {
+            "class": "c-bg-light-alt"
+          },
+          {
+            "class": "c-bg-dark"
+          },
+          {
+            "class": "c-bg-dark-alt"
+          },
+          {
+            "class": "c-bg-accent"
+          },
+          {
+            "class": "c-bg-accent-alt"
+          },
+          {
+            "class": "c-bg-gradient"
+          },
+          {
+            "class": "c-bg-blur-s"
+          },
+          {
+            "class": "c-bg-blur-m"
+          },
+          {
+            "class": "c-bg-blur-l"
+          },
+          {
+            "class": "c-bg-blur-xl"
+          }
+        ]
+      },
+      {
+        "group_name": "Headings",
+        "classes": [
+          {
+            "class": "c-h1"
+          },
+          {
+            "class": "c-h1-fat"
+          },
+          {
+            "class": "c-h2"
+          },
+          {
+            "class": "c-h3"
+          },
+          {
+            "class": "c-h4"
+          },
+          {
+            "class": "c-h5"
+          },
+          {
+            "class": "c-h6"
+          },
+          {
+            "class": "c-heading-light"
+          },
+          {
+            "class": "c-heading-dark"
+          },
+          {
+            "class": "c-heading-accent"
+          }
+        ]
+      },
+      {
+        "group_name": "Text",
+        "classes": [
+          {
+            "class": "c-text-s"
+          },
+          {
+            "class": "c-text-m"
+          },
+          {
+            "class": "c-text-l"
+          },
+          {
+            "class": "c-text-xl"
+          },
+          {
+            "class": "c-text-light"
+          },
+          {
+            "class": "c-text-dark"
+          },
+          {
+            "class": "c-text-accent"
+          },
+          {
+            "class": "c-tagline"
+          },
+          {
+            "class": "c-tagline-alt"
+          }
+        ]
+      },
+      {
+        "group_name": "Links",
+        "classes": [
+          {
+            "class": "c-link-s"
+          },
+          {
+            "class": "c-link-m"
+          },
+          {
+            "class": "c-link-l"
+          },
+          {
+            "class": "c-link-xl"
+          },
+          {
+            "class": "c-tagline"
+          },
+          {
+            "class": "c-tagline-alt"
+          },
+          {
+            "class": "c-link-light"
+          },
+          {
+            "class": "c-link-dark"
+          },
+          {
+            "class": "c-link-accent"
+          }
+        ]
+      },
+      {
+        "group_name": "Buttons",
+        "classes": [
+          {
+            "class": "c-btn-main"
+          },
+          {
+            "class": "c-btn-alt"
+          },
+          {
+            "class": "c-btn-transparent"
+          },
+          {
+            "class": "c-btn-xs"
+          },
+          {
+            "class": "c-btn-s"
+          },
+          {
+            "class": "c-btn-m"
+          },
+          {
+            "class": "c-btn-l"
+          },
+          {
+            "class": "c-btn-xl"
+          },
+          {
+            "class": "c-buttons",
+            "description": "Two Buttons Grid"
+          }
+        ]
+      },
+      {
+        "group_name": "Icons",
+        "classes": [
+          {
+            "class": "c-icon-accent-s"
+          },
+          {
+            "class": "c-icon-accent-m"
+          },
+          {
+            "class": "c-icon-accent-l"
+          },
+          {
+            "class": "c-icon-light-s"
+          },
+          {
+            "class": "c-icon-light-m"
+          },
+          {
+            "class": "c-icon-light-l"
+          },
+          {
+            "class": "c-icon-dark-s"
+          },
+          {
+            "class": "c-icon-dark-m"
+          },
+          {
+            "class": "c-icon-dark-l"
+          }
+        ]
+      },
+      {
+        "group_name": "Cards",
+        "classes": [
+          {
+            "class": "c-card-accent"
+          },
+          {
+            "class": "c-card-dark"
+          },
+          {
+            "class": "c-card-light"
+          },
+          {
+            "class": "c-card-transparent"
+          },
+          {
+            "class": "c-card-has-hover"
+          },
+          {
+            "class": "c-card-on-hover"
+          }
+        ]
+      },
+      {
+        "group_name": "Avatars / Portraits",
+        "classes": [
+          {
+            "class": "c-avatar-xs"
+          },
+          {
+            "class": "c-avatar-s"
+          },
+          {
+            "class": "c-avatar-m"
+          },
+          {
+            "class": "c-avatar-l"
+          },
+          {
+            "class": "c-avatar-xl"
+          },
+          {
+            "class": "c-avatar-full"
+          }
+        ]
+      },
+      {
+        "group_name": "Borders & Shadows",
+        "classes": [
+          {
+            "class": "c-rounded",
+            "description": "Border radius. Useful for images, etc."
+          },
+          {
+            "class": "c-shadow",
+            "description": "Default shadow. Also useful for images or any other content."
+          },
+          {
+            "class": "c-border-light"
+          },
+          {
+            "class": "c-border-dark"
+          }
+        ]
+      },
+      {
+        "group_name": "3D effects",
+        "classes": [
+          {
+            "class": "c-3d-left"
+          },
+          {
+            "class": "c-3d-right"
+          },
+          {
+            "class": "c-3d-up"
+          },
+          {
+            "class": "c-3d-down"
+          }
+        ]
+      },
+      {
+        "group_name": "Hover Effects",
+        "classes": [
+          {
+            "class": "c-hover-scale"
+          },
+          {
+            "class": "c-hover-scale-up"
+          },
+          {
+            "class": "c-hover-move-up"
+          },
+          {
+            "class": "c-hover-move-down"
+          },
+          {
+            "class": "c-hover-move-left"
+          },
+          {
+            "class": "c-hover-move-right"
+          },
+          {
+            "class": "c-hover-3d-up"
+          },
+          {
+            "class": "c-hover-3d-down"
+          },
+          {
+            "class": "c-hover-3d-left"
+          },
+          {
+            "class": "c-hover-3d-right"
+          }
+        ]
+      }
+    ],
+    "enable": 1
+  }
+}

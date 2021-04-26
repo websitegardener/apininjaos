@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="190px" height="100px" viewBox="0 0 190 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>button-with-icon</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.350054 0 0 0 0 0.379262 0 0 0 0 0.404297 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="button-with-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#596167" stroke-width="10" x="27" y="24" width="137" height="53" rx="3.5"></rect>
+        <rect id="Rectangle" fill="#596167" x="46" y="44" width="72" height="13" rx="5"></rect>
+        <g filter="url(#filter-1)" id="Group">
+            <g transform="translate(130.507927, 36.543927)">
+                <rect id="Rectangle" stroke="#596167" fill="#596167" transform="translate(8.500000, 8.500000) rotate(-315.000000) translate(-8.500000, -8.500000) " x="-1.5" y="5.5" width="20" height="6" rx="2.5"></rect>
+                <rect id="Rectangle" stroke="#596167" fill="#596167" transform="translate(8.966441, 18.942375) rotate(-225.000000) translate(-8.966441, -18.942375) " x="-1.0335586" y="15.9423751" width="20" height="6" rx="2.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
